@@ -1,0 +1,100 @@
+.form-holder{
+   max-width: 900px;
+   width: 100%;
+   margin: 0px auto;
+   margin-top: 300px;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   gap: 70px;
+   &__main{
+      display: flex;
+      gap: 50px;
+      align-items: start;
+   }
+   &__name{
+      border: none;
+      background-color: inherit;
+      border-bottom: 1px solid rgb(92, 129, 117);
+      min-width: 350px;
+      outline: 0;
+      padding-bottom: 10px;
+   }
+   &__email{
+      border: none;
+      background-color: inherit;
+      border-bottom: 1px solid rgb(92, 129, 117);
+      min-width: 350px;
+      outline: 0;
+      padding-bottom: 10px;
+   }
+   &__mobile{
+      border: none;
+      background-color: inherit;
+      border-bottom: 1px solid rgb(92, 129, 117);
+      max-width: 350px;
+      outline: 0;
+      padding-bottom: 10px;
+   }
+   &__text{
+      border: none;
+      background-color: inherit;
+      border-bottom: 1px solid rgb(92, 129, 117);
+      min-width: 750px;
+      outline: 0;
+      padding-bottom: 10px;
+   }
+   &__answer{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+   }
+   &__checkbox{
+      width: 20px;
+      height: 20px;
+      border: 1px solid rgb(92, 129, 117);
+   }
+   &__button{
+      padding: 20px 40px;
+      border: none;
+      margin: 0px auto;
+      border-radius: 40px;
+      background-color: rgb(202, 78, 32);
+      color: white;
+      text-align: center;
+      font-size: 32px;
+   }
+   &__button:active{
+      background-color: inherit;
+      color:black;
+   }
+   &__main--name{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+   &__main--email{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+   &__main--phone{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+}
+
+p{
+   color: rgb(214, 58, 1);
+   margin: 0;
+}
+
+.accepted{
+   color: rgb(214, 58, 1);
+   margin-top: 20px;
+   font-size: 32px;
+   text-align: center;
+}
